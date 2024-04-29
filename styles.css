@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-register {
+  width: 400px;
+  background: #212121;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #212121;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #0d7377;
+  border-radius: 4px;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: #14ffec;
+  text-decoration: underline;
+}
+
+.form-register .button {
+  width: 100%;
+  background: #0d7377;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  font-family: "calibri";
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+.form-register .button:hover {
+  background-color: #14ffec; /* Cambio de color de fondo al pasar el cursor */
+  color: #fff; /* Cambio de color de texto al pasar el cursor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efecto de sombra al pasar el cursor */
+  color: #000;
+  font-family: "calibri";
+  font-size: 16px;
+}
